@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.background{
+  background-color: #006464;
+  padding: 70px 250px;
+  background-image: url(./assets/images/blurred-minimalism-gradient-wallpaper-preview.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.booking-table{
+  background-color: rgb(238, 249, 252, 0.75);
+  border-radius: 10px;
+  box-shadow: -8px -8px 25px rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-family: "poppins", sans-serif;
+  padding: 15px;
+  padding-top: 5px;
+}
+
+.drawing{
+  height: 100px;
+  display: flex;
+}
+
+.logo{
+  width: 150px;
+  height: 60px;
+}
+
+h1{
+  margin-top: 10px;
+}
+
+.top-row{
+  border-bottom: 2px solid rgb(173, 173, 173);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.booking-row {
+  padding: 15px;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  backdrop-filter: none;
+  opacity: 100%;
+}
+
+.booking-title{
+  margin-bottom: 20px;
+  font-family: "poppins", sans-serif;
+}
+
+input{
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.booking-item {
+  display: flex;
+  column-gap: 10%;
+  margin: 10px 0;
+  align-items: center;
+  backdrop-filter: none;
+  opacity: 100%;
+}
+
+.booking-title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.time-slot {
+  font-family: "poppins", sans-serif;
+  font-size:medium
+}
+
+.username {
+  font-weight: 500;
+}
+
+form {
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding-left: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-bottom: 2px;
+}
+
+select {
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: 5px;
+  margin-top: 2px;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 600;
+  background-image: linear-gradient(45deg, #2b9d8e 0%, #218073  55%, #2b9d8e  100%);
+}
+
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.booker{
+  background-image: linear-gradient(45deg, #264653 0%, #457c94  57%, #264653  100%);
+}
+
+.time-slot{
+  font-weight:500;
+  width: 160px;
+}
